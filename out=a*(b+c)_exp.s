@@ -1,0 +1,21 @@
+	;out=a * (b+c)
+	AREA RESET, CODE, READONLY
+	ENTRY
+	
+	MOV R0,#a;
+	MOV R1,#b;
+	MOV R2,#c;
+	LDR R3,=out;
+	
+	ADDS R4, R1,R2;
+	MUL R5,R0,R4;
+	STR R5,[R3];
+	
+STOP B STOP;
+a EQU 0xF1000000;
+b EQU 0xA1;
+c EQU 0x22;
+		
+	AREA RES, DATA, READWRITE
+out dcd 0;
+	END
