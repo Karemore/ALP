@@ -23,7 +23,7 @@ FIB_LOOP
 
 STOP B STOP;
 
-num EQU 0x40; ;size of int  * number of fib = 4 *10 = 40
+num EQU 0x40; ;size of int  * length of fib series = 4 *10 = 40
 	AREA RES, DATA, READWRITE
 array SPACE 0x40; defines bytes of zeroed store
 	END
