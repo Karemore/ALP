@@ -1,2 +1,25 @@
-# ALP - Assemply language programs
+# ALP - ARM Assemply language programs
 
+* [Program to check if number is odd or even](https://github.com/Karemore/ALP/blob/main/check_odd_even.s)
+* [Program to concatenate two strings](https://github.com/Karemore/ALP/blob/main/concat_strings.s)
+* [Program to count negative numbers in a given array](https://github.com/Karemore/ALP/blob/main/count_negative_numbers.s)
+* [Program to count the number of ones in contents of register](https://github.com/Karemore/ALP/blob/main/count_ones.s)
+* [Program to divide two numbers without using divison operator](https://github.com/Karemore/ALP/blob/main/divide_two_numbers.s)
+* [Program to generate Fibonacci Sequence](https://github.com/Karemore/ALP/blob/main/fibonacci.s)
+* [Program to find average of n numbers without using divison operator](https://github.com/Karemore/ALP/blob/main/find_average.s)
+* [Program to find largest of 2 numbers](https://github.com/Karemore/ALP/blob/main/find_greter_number.s)
+* [Program to find LCM of two numbers](https://github.com/Karemore/ALP/blob/main/lcm_of_two_number.s)
+* [Program to find remainder without using modulo or divison operator](https://github.com/Karemore/ALP/blob/main/mod_operation.s)
+* [Program to separate (or split) a byte into two nibbles](https://github.com/Karemore/ALP/blob/main/seperate_msb_lsb.s)
+* [Program to find the sum of first n natural numbers](https://github.com/Karemore/ALP/blob/main/sum_natural_numbers.s)
+* [Program to swap contents of two strings using XOR](https://github.com/Karemore/ALP/blob/main/swap_two_strings.s)
+
+## Programs to solve expressions
+  * [out = (a << 4) | (b & 15)](https://github.com/Karemore/ALP/blob/main/out%20%3D%20(a%20%3C%3C%204)%20%7C%20(b%20%26%2015).s)
+  * [out = (I << 2) + (j << 5) + (k << 8)](https://github.com/Karemore/ALP/blob/main/out%20%3D%20(i%20%3C%3C%202)%20%2B%20(j%20%3C%3C%205)%20%2B%20(k%20%3C%3C%208).s)
+  * [out = (i >> 2) + (j >> 5)](https://github.com/Karemore/ALP/blob/main/out%20%3D%20(i%20%3E%3E%202)%20%2B%20(j%20%3E%3E%205).s)
+  * [out = (i÷2) + (j÷4) + (k÷4)](https://github.com/Karemore/ALP/blob/main/out%20%3D%20(i%C3%B72)%20%2B%20(j%C3%B74)%20%2B%20(k%C3%B74).s)
+  * [out = (~i) ^ (~j) ^ (k)](https://github.com/Karemore/ALP/blob/main/out%20%3D%20(~i)%20%5E%20(~j)%20%5E%20(k).s)
+  * [out= (a >> 4) && (b << 16) && (c << 18)](https://github.com/Karemore/ALP/blob/main/out%3D%20(a%20%3E%3E%204)%20%26%26%20(b%20%3C%3C%2016)%20%26%26%20(c%20%3C%3C%2018)%20.s)
+  * [out=(a+b)-c](https://github.com/Karemore/ALP/blob/main/out%3D(a%2Bb)-c.s)
+  * [out=a * (b+c)](https://github.com/Karemore/ALP/blob/main/out%3Da*(b%2Bc).s)
