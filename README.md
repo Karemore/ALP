@@ -1,2 +1,2 @@
-# ALP
-Assemply language programs for Practice
+# ALP - Assemply language programs
+
