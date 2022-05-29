@@ -5,7 +5,7 @@
 	ENTRY
 	ADR R0,N;
 	LDR R1,[R0];
-	MOV	R0,#00;
+	MOV R0,#00;
 	
 LOOP	
 	ADD R0,R0,#01;
